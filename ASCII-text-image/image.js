@@ -1,4 +1,5 @@
-const density = 'Ñ@#W$9876543210?!abc;:+=-,._ ';
+//const density = 'Ñ@#W$9876543210?!abc;:+=-,._ ';
+const density = '$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/\|()1{}[]?-_+~>i!lI;:,"^`\'. ';
 let img;
 
 function preload() {

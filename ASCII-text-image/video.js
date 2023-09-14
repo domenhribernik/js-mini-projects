@@ -1,5 +1,5 @@
-const density = 'Ñ@#W$9876543210?!abc;:+=-,._ ';
-//const density = '$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/\|()1{}[]?-_+~>i!lI;:,"^`\'. ';
+//const density = 'Ñ@#W$9876543210?!abc;:+=-,._ ';
+const density = '$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/\|()1{}[]?-_+~>i!lI;:,"^`\'.             ';
 const size = 64;
 let video;
 let asciiDiv;
@@ -7,7 +7,7 @@ let asciiDiv;
 function setup() {
     noCanvas();
     video = createCapture(VIDEO);
-    video.size(size, size);
+    video.size(size*2, size);
     asciiDiv = createDiv();
 }
 
