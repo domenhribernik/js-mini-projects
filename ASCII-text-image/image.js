@@ -25,7 +25,9 @@ function setup() {
             const len = density.length;
             const charIndex = floor(map(avg,0,255,len,0));
 
-            row += density.charAt(charIndex);
+            const char = density.charAt(charIndex);
+            if (char == ' ') row += '&nbsp';
+            row += char;
         }
         createDiv(row);
     }
